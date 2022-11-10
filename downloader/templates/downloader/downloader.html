@@ -1,0 +1,16 @@
+{% extends "downloader\base.html" %}
+{%load static%}
+{%block header%}
+{{hc|safe}}
+{%endblock%}
+{% block body %}
+{%if data%}
+{{name}}
+{{data}}
+<a href="{{data.0.gen_slug}}">{{data.0.Name}}</a>
+<a href="#">{{name}}</a>
+{%else%}
+<h2>404</h2>
+{%endif%}
+{% endblock body %}
+

@@ -1,0 +1,10 @@
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'u626240194_bncce',
+        'USER': 'u626240194_bncce',
+        'PASSWORD': 'Bncce@12345',
+        'HOST': 'sql645.main-hosting.eu',
+        'PORT': '3306',
+    }
+}
